@@ -28,4 +28,4 @@ for (let i = 0; i < listaAsignacion.length; i++){
 }
 
 
-console.log(listaAsignacion)
+console.log(listaAsignacion[0])
