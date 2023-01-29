@@ -27,5 +27,8 @@ for (let i = 0; i < listaAsignacion.length; i++){
   }
 }
 
+const totalA = listaAsignacion.filter(data => data.assig === 'A');
+const totalB = listaAsignacion.filter(data => data.assig === 'B');
 
-console.log(listaAsignacion[0])
+
+console.log(listaAsignacion.filter(data => data.assig === 'A'));
