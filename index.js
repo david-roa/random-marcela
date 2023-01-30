@@ -56,4 +56,4 @@ while (result.a !== 41 && result.b !== 41){
 
 console.log('Total A: ', result.a);
 console.log('Total B: ', result.b);
-console.log(result.list.map(d => `${d.assig}`));
+result.list.forEach(data => console.log(data.assig));
