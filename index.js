@@ -36,8 +36,11 @@ function getRandomInt(max) {
 }
 
 let result = {list: [], a: 0, b: 0};
+
 while (result.a !== 41 && result.b !== 41){
   result = getLogicRandom();
+  console.log(result.a)
+  console.log(result.b)
 }
 
 
@@ -53,4 +56,4 @@ while (result.a !== 41 && result.b !== 41){
 
 console.log('Total A: ', result.a);
 console.log('Total B: ', result.b);
-console.log(result.list.map(d => `${d.assig}\n\r`));
+//console.log(result.list.map(d => `${d.assig}\n\r`));
