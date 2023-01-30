@@ -28,7 +28,7 @@ function getLogicRandom() {
   
   const totalA = listaAsignacion.filter(data => data.assig === 'A');
   const totalB = listaAsignacion.filter(data => data.assig === 'B');
-  return {list: listaAsignacion, a: totalA, b: totalB}
+  return {list: listaAsignacion, a: totalA.length, b: totalB.length}
 }
 
 function getRandomInt(max) {
